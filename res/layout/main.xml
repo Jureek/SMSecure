@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    <EditText android:id="@+id/numerTelefonu" android:hint="@string/enterNumber" android:layout_height="wrap_content" android:layout_gravity="top" android:layout_width="fill_parent" android:ellipsize="none" android:inputType="phone" android:nextFocusDown="@+id/tekstWiadomosci"></EditText>
+	<EditText android:layout_width="match_parent" android:id="@+id/tekstWiadomosci"
+		android:hint="@string/enter_message" android:layout_height="match_parent"
+		android:gravity="top" android:inputType="textMultiLine" android:layout_weight="1"/>
+	<TableRow android:id="@+id/tableRow1"
+		android:layout_height="wrap_content" android:weightSum="1" android:layout_width="fill_parent" android:layout_gravity="bottom|center" android:gravity="center">
+		<Button android:id="@+id/przyciskWyslij" android:layout_width="200dip" android:layout_weight="0" android:inputType="phone" android:layout_gravity="center" android:text="@string/wyslij" android:layout_height="55dip"/>
+		<ToggleButton android:id="@+id/wlaczenieSzyfrowania" android:textOn="@string/crypto_on" android:textOff="@string/crypto_off" android:layout_weight="0" android:layout_gravity="center" android:layout_width="120dip" android:layout_height="54dip"/>
+	</TableRow>
+</LinearLayout>

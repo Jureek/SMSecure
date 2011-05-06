@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="Wyświetlanie błędów" android:summary="Włącz wyświetlanie błędów wysyłania" android:key="WyswietalnieBledow" android:enabled="true"></CheckBoxPreference>
+    <CheckBoxPreference android:title="Wyświetlanie komunikatów" android:summary="Włącz komunikaty o wysłaniu i dostarczeniu wiadomości" android:key="Komunikaty" android:enabled="true"></CheckBoxPreference>
+</PreferenceScreen>

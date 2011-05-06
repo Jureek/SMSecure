@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">SMSecure</string>
+	<string name="crypto_on">Szyfrowanie Wł.</string>
+	<string name="crypto_off">Szyfrowanie Wył.</string>
+	<string name="wyslij">Wyślij</string>
+	<string name="enter_message">Wpisz tekst wiadomości</string>
+	<string name="enterNumber">Podaj numer telefonu</string>
+	<string name="brakSzczegolow">Podaj numer telefonu i tekst wiadomości</string>
+	<string name="brakNumeru">Podaj numer telefonu</string>
+	<string name="brakWiadomosci">Podaj tekst wiadomości</string>
+	<string name="wyslano">Wiadomość wysłana</string>
+	<string name="dostarczono">Wiadomość dostarczona</string>
+	<string name="nieDostarczono">Nie dostarczono</string>
+	<string name="brakZasiegu">Brak zasięgu</string>
+	<string name="siecWylaczona">Sieć wyłączona</string>
+	<string name="pustyPDU">Pusty PDU</string>
+	<string name="bladGeneric">Ogólny błąd</string>
+	<string name="ustawienia">Ustawienia</string>
+	<string name="ustawieniaKrotkaNazwa">Opcje</string>
+	<string name="nowySMS">Napisz SMS</string>
+</resources>
